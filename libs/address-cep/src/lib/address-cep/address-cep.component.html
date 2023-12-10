@@ -1,0 +1,17 @@
+<div class="address-container">
+  @for (item of address(); track item) {
+  <mat-card>
+    <mat-card-content>
+      <p>{{item.cep}}</p><br>
+      <p>{{item.logradouro}}</p><br>
+      <p>{{item.complemento}}</p><br>
+      <p>{{item.bairro}}</p><br>
+      <p>{{item.localidade}}</p><br>
+      <p>{{item.uf}}</p><br>
+      <p>{{item.ibge}}</p><br>
+      <p>{{item.ddd}}</p><br>
+      <p>{{item?.gia}}</p><br>
+    </mat-card-content>
+  </mat-card>
+  }
+</div>

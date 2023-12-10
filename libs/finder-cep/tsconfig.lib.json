@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../dist/out-tsc",
+    "declaration": true,
+    "declarationMap": true,
+    "types": []
+  },
+  "exclude": [
+    "/libs/src/**/*.spec.ts",
+    "/libs/src/test-setup.ts",
+    "/libs/jest.config.ts",
+    "/libs/src/**/*.test.ts"
+  ],
+  "include": ["/libs/src/**/*.ts"]
+}

@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@consulta-cep/address-cep": ["libs/address-cep/src/index.ts"],
+      "@consulta-cep/finder-cep": ["libs/finder-cep/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
